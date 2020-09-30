@@ -1,11 +1,11 @@
-package com.xworkz.tester;
+package com.xworkz.Tester;
 
 import java.io.IOException;
 import java.util.Scanner;
 import org.openqa.selenium.WebDriver;
 
-import com.xworkz.Helper.Helper;
-import com.xworkz.LaunchingBrowser.LaunchingBrowser;
+import com.xworkz.helper.Helper;
+import com.xworkz.launchingbrowser.LaunchingBrowser;
 
 public class Tester {
 

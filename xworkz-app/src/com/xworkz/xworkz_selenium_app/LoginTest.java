@@ -6,8 +6,9 @@ import java.util.Scanner;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import com.xworkz.Helper.Helper;
-import com.xworkz.LaunchingBrowser.LaunchingBrowser;
+
+import com.xworkz.helper.Helper;
+import com.xworkz.launchingbrowser.LaunchingBrowser;
 
 public class LoginTest {
 

@@ -1,4 +1,4 @@
-package com.xworkz.Helper;
+package com.xworkz.helper;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

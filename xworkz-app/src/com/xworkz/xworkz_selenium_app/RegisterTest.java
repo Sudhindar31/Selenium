@@ -7,8 +7,9 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
-import com.xworkz.Helper.Helper;
-import com.xworkz.LaunchingBrowser.LaunchingBrowser;
+
+import com.xworkz.helper.Helper;
+import com.xworkz.launchingbrowser.LaunchingBrowser;
 
 public class RegisterTest {
 
@@ -31,8 +32,8 @@ public class RegisterTest {
 			Select coursesdrpdown = new Select(driver.findElement(By.id("courses")));
 			coursesdrpdown.selectByValue(help.getproperty("Course"));
 			WebElement radio = driver.findElement(By.id("male"));//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='male']")));
-			((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", radio);
-			radio.click();
+			((JavascriptExecutor) driver).executeScript("arguments[0].click();", radio);
+			//radio.click();
 			driver.findElement(By.className("registerbtn")).click();
 			String regsuccess = driver.findElement(By.xpath("//h1[contains(text(),'Registration is successful')]"))
 					.getText();
