@@ -1,4 +1,4 @@
-package com.xworkz.Tester;
+package com.xworkz.tester;
 
 import java.io.IOException;
 import java.util.Scanner;
